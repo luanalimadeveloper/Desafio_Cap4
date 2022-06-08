@@ -19,12 +19,12 @@ INSERT INTO tb_genre (name) VALUES ('Romance');
 INSERT INTO
     tb_movie (title, sub_Title, year, img_Url, synopsis, genre_id)
 VALUES
-    ('Star Wars', 'Episódio I - A Ameaça Fantasma', 1999, 'https://www.papodecinema.com.br/wp-content/uploads/2012/02/20171210-maxresdefault.jpg', 'Guerreiro Jedi tenta salvar o planeta Naboo', 1);
+    ('Star Wars', 'Episódio I - A Ameaça Fantasma', 1999, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg', 'Jedi tenta salvar planeta Naboo', 1);
 
 INSERT INTO
     tb_movie (title, sub_Title, year, img_Url, synopsis, genre_id)
 VALUES
-    ('Harry Potter', 'e a Pedra Filosofal', 1997, 'https://www.papodecinema.com.br/wp-content/uploads/2012/02/20171210-maxresdefault.jpg', 'Harry descrobre que é um bruxo', 2);
+    ('Harry Potter', 'e a Pedra Filosofal', 1997, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg', 'Harry descrobre que é um bruxo', 2);
 
 
 INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Filme incrivel', 1, 1);
